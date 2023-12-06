@@ -1,0 +1,14 @@
+/* src/components/Admin.css */
+.admin-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .admin-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add additional styling for your admin dashboard content as needed */
+  

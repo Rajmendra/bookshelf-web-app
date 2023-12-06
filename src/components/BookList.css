@@ -1,0 +1,50 @@
+/* src/components/BookCard.css */
+.book-card {
+    margin-top: 20px;
+  }
+  
+  .book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .book-table th, .book-table td {
+    border: 1px solid #e1e1e1;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .book-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .book-table td {
+    background-color: #fff;
+  }
+  
+  .book-table tbody tr:hover td {
+    background-color: #ebebeb;
+  }
+  
+  .book-table th, .book-table td button {
+    cursor: pointer;
+  }
+  
+  .book-table td button {
+    margin-right: 5px;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .book-table td button:hover {
+    background-color: #0056b3;
+  }
+  
